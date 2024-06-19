@@ -1,0 +1,56 @@
+{
+  "name": "wppconnect-front-vue",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "changelog:last": "conventional-changelog -p angular -r 2",
+    "changelog:preview": "conventional-changelog -p angular -u",
+    "changelog:update": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "commit": "git-cz",
+    "license:add": "license-check-and-add add",
+    "license:check": "license-check-and-add check",
+    "lint": "eslint --ext .js src",
+    "prepare": "husky install",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "emoji-mart-vue-fast": "^10.2.2",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "pinia": "^2.0.14",
+    "register-service-worker": "^1.7.2",
+    "socket.io-client": "^4.5.1",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/eslint-plugin": "^7.17.7",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/cz-commitlint": "^17.0.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
+    "license-check-and-add": "^4.0.5",
+    "prettier": "^2.7.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
