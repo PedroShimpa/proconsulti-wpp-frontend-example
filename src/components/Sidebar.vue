@@ -3,7 +3,7 @@
             <div class="container-sidebar">
 
                 <div class="logo-col">
-                    <router-link to="/index"><img src="https://avatars.githubusercontent.com/u/77944999?s=200&v=4" alt="" width="50"></router-link>
+                    <router-link to="/index"><img src="https://avatars.githubusercontent.com/u/61846542?v=4" alt="" width="50"></router-link>
                 </div>
                 <section class="menu-items">
                     <li>
